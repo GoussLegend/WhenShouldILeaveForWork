@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.whenshouldileaveforwork.R;
-import com.example.whenshouldileaveforwork.Settings;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -30,14 +29,6 @@ public class MainActivity extends ActionBarActivity {
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
-
-	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
@@ -53,6 +44,7 @@ public class MainActivity extends ActionBarActivity {
 		Intent intent = new Intent(this, Settings.class);
 	    startActivity(intent);
 	}
+	
 	
 	/**
 	 * A placeholder fragment containing a simple view.

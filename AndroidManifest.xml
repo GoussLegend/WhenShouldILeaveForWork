@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.whenshouldileaveforwork.Settings"
+            android:name="com.gousslegend.whenshouldileaveforwork.Settings"
             android:label="@string/title_activity_settings" >
         </activity>
     </application>

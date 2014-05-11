@@ -1,4 +1,8 @@
-package com.example.whenshouldileaveforwork;
+package com.gousslegend.whenshouldileaveforwork;
+
+import com.example.whenshouldileaveforwork.R;
+import com.example.whenshouldileaveforwork.R.id;
+import com.example.whenshouldileaveforwork.R.layout;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
